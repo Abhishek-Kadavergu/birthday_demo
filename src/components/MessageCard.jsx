@@ -13,14 +13,18 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `Nayana,
+  //   const message = `Nayana,
 
-Happy Birthday.
-Wishing you good health, happiness, and success in the coming year.
+  // Happy Birthday.
+  // Wishing you good health, happiness, and success in the coming year.
 
-Have a great day.
+  // Have a great day.
 
-— Srujan`;
+  // — Srujan`;
+  const message = `
+The first time I saw you, you were standing on a balcony while I was on the road below—two different places, yet somehow our paths crossed. The second time, on the metro steps, life gave me another moment to believe in us. It was never about your face or your body; it was always about your heart and your soul. We shared precious moments, even knowing that a future together might not be possible, yet we chose to love anyway. We laughed, fought, learned, and grew—gaining knowledge, experience, and strength from each other—and we overcame so many quarrels, which makes me proud of how far we came together. I truly believe in your future and the career you dream of, and I know you’ll achieve it because your determination and heart deserve success.Please feel free to text me anytime and talk to me whenever you feel low or lost; no matter where life takes us, know this—I’m always with you, silently supporting you and wishing the best for you, always. 🤍
+
+-Yours lovingly Bhuvi`;
 
   // Handle page transitions
   useEffect(() => {

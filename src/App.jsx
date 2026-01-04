@@ -96,7 +96,8 @@ function App() {
           <h1 id="heroTitle">
             {birthdayReached ? (
               <>
-                Happy Birthday <span className="highlight">Nayana</span> 🎂
+                Happy Birthday <span className="highlight">BOO BOO Ji</span>{" "}
+                🎂💖
               </>
             ) : (
               <>
